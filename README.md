@@ -1,4 +1,4 @@
 # SVGLines
 
-## Link to Github-Page
+## Demo
 https://joool7.github.io/SVGLines/public/
