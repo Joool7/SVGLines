@@ -12,9 +12,8 @@
     .attr("height", height)
     .attr("class", "darkmode");
 
-  const noOfPoints = 13;
-
   setInterval(() => {
+    const noOfPoints = Math.random() * (15 - 3) + 3;
     const points = [];
     const lines = [];
     for (let i = 0; i < noOfPoints; i++) {
