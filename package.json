@@ -7,15 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
     "watch": "rollup -c -w",
-    "dev": "npm-run-all --parallel start watch",
-    "start": "live-server --open=public/index.html"
+    "dev": "vite",
+    "start": "npx serve dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.2",
-    "npm-run-all": "^4.1.5",
-    "rollup": "latest"
+    "rollup": "4.33.0-0",
+    "vite": "^6.0.11"
   },
   "type": "module"
 }
